@@ -71,10 +71,12 @@ git init
 
 6. `git log`: shows details about the commits made, their authors , date and time , msg given during the commit 
 
+7. `git log --oneline`: shows all the commits made in a single line. This is a better way to look at all the commits and gives you all the details you'd ever need.
+
 
 > **NOTE:** 
 >- In order to make some files not be staged or committed every time, we can make a txt file named **.gitignore** (yes the . needs to be there, it is not the file extension thing) and write all the files names which we wish to be excluded in it.
->- You can also go online to .gitignore file generators
+>- You can also go online to .gitignore file generators like [this website](https://mrkandreev.name/snippets/gitignore-generator/)
 
 
 ---
@@ -105,7 +107,9 @@ git init
 
 1. `git checkout commitID`: is a command in Git used to switch branches or restore files versions. **commitID** refers to the unique identifier of a commit in Git, typically a hash value associated with a specific commit.
 
-2. `git checkout master`: This takes us back to the latest committed version.
+2. `git checkout master`: This takes us back to the latest committed version of the main branch.
+
+3. `git checkout -` command takes you back to the previous branch you were working on 
 
 ---
 
